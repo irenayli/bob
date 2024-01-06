@@ -19,7 +19,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 1em;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -3123,7 +3123,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #ffffff;
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
-		height: 3.5em;
+		height: 150;
 		left: 0;
 		line-height: 3.5em;
 		position: fixed;
@@ -3151,7 +3151,7 @@ input, select, textarea {
 		#header h1 {
 			height: inherit;
 			line-height: inherit;
-			padding: 0 0 0 1.5em;
+			padding: 1.5em;
 			white-space: nowrap;
 		}
 
@@ -3500,7 +3500,7 @@ input, select, textarea {
 	#footer .copyright {
 		color: #aaaaaa;
 		font-family: "Raleway", Helvetica, sans-serif;
-		font-size: 0.5em;
+		font-size: 0.75em;
 		font-weight: 400;
 		letter-spacing: 0.25em;
 		text-transform: uppercase;
