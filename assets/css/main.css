@@ -3124,7 +3124,7 @@ input, select, textarea {
 		justify-content: space-between;
 		background-color: #ffffff;
 		border-bottom: solid 1px rgba(160, 160, 160, 0.3);
-		height: 3.5em;
+		height: auto;
 		left: 0;
 		line-height: 3.5em;
 		position: fixed;
@@ -3287,13 +3287,13 @@ input, select, textarea {
 				padding: 0 0.5em 0 0;
 			}
 
-		@media screen and (max-width: 980px) {
+		/*@media screen and (max-width: 980px) {
 
 			#header .links {
 				display: none;
 			}
 
-		}
+		} */
 
 		@media screen and (max-width: 736px) {
 
@@ -3310,7 +3310,7 @@ input, select, textarea {
 					display: none;
 				}
 
-		}
+		} 
 
 /* Wrapper */
 
