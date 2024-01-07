@@ -4,7 +4,7 @@
 		<title>Brad O'Brien</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
 	<body class="is-preload">
 
@@ -13,19 +13,45 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1 style="font-size: 28">Brad O'Brien</h1>
-						<nav style="padding:1.5em"class="links">
-							<a href="#index.html">home</a>
-							<a href="#about.html">about</a>
-							<a href="#work.html">work</a>
-							<a href="#contact.html">contact</a>
+						<h1><a href="index.html">Brad O'Brien</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#index.html">Home</a></li>
+								<li><a href="#about.html">About</a></li>
+								<li><a href="#work.html">Resume</a></li>
+								<li><a href="#contact.html">Contact</a></li>
+							</ul>
 						</nav>
+						<!-- <nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav> -->
 					</header>
 
 				<!-- Main -->
 					<div id="main">
+						<article class="post">
+							<header>
+								<div class="title">
+									<h2>Hello!</h2>
+								</div>
+							</header>
+							<p>I'm a junior at the University of Michigan</p>
+							<p>I am a double econ major</p>
+							<p>I used to work at the lsa opportunity hub. now I work for the big banks</p>
+							<p>Looking for work in _______</p> 
+						</class>
 
-						<!-- Post -->
+						<!-- Post
 							<article class="post">
 								<header>
 									<div class="title">
@@ -49,100 +75,9 @@
 										<li><a href="#" class="icon solid fa-comment">128</a></li>
 									</ul>
 								</footer>
-							</article>
+							</article> -->
 
-						<!-- Post -->
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-									</div>
-									<div class="meta">
-										<time class="published" datetime="2015-10-25">October 25, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-									</div>
-								</header>
-								<a href="single.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="single.html" class="button large">Continue Reading</a></li>
-									</ul>
-									<ul class="stats">
-										<li><a href="#">General</a></li>
-										<li><a href="#" class="icon solid fa-heart">28</a></li>
-										<li><a href="#" class="icon solid fa-comment">128</a></li>
-									</ul>
-								</footer>
-							</article>
-
-						<!-- Post -->
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="single.html">Euismod et accumsan</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-									</div>
-									<div class="meta">
-										<time class="published" datetime="2015-10-22">October 22, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-									</div>
-								</header>
-								<a href="single.html" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
-								<footer>
-									<ul class="actions">
-										<li><a href="single.html" class="button large">Continue Reading</a></li>
-									</ul>
-									<ul class="stats">
-										<li><a href="#">General</a></li>
-										<li><a href="#" class="icon solid fa-heart">28</a></li>
-										<li><a href="#" class="icon solid fa-comment">128</a></li>
-									</ul>
-								</footer>
-							</article>
-
-						<!-- Post -->
 						<!--
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="#">Elements</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-									</div>
-									<div class="meta">
-										<time class="published" datetime="2015-10-18">October 18, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-									</div>
-								</header>
-
-								<section>
-									<h3>Text</h3>
-									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-									<hr />
-									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-									<hr />
-									<h2>Heading Level 2</h2>
-									<h3>Heading Level 3</h3>
-									<h4>Heading Level 4</h4>
-									<hr />
-									<h4>Blockquote</h4>
-									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-									<h4>Preformatted</h4>
-									<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-  print 'Iteration ' + i;
-  deck.shuffle();
-  i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-								</section>
-
 								<section>
 									<h3>Lists</h3>
 									<div class="row">
@@ -416,32 +351,42 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</article>
 						-->
 
-						<!-- Pagination -->
+						<!-- Pagination
 							<ul class="actions pagination">
 								<li><a href="" class="disabled button large previous">Previous Page</a></li>
 								<li><a href="#" class="button large next">Next Page</a></li>
-							</ul>
+							</ul> -->
 
 					</div>
 
 				<!-- Sidebar -->
 					<section id="sidebar">
 
+						<!-- Intro -->
+							<section id="intro">
+								<a href="#"><img src="images/bob.jpg" height="275" width = "275" alt="" /></a>
+								<header>
+									<h2>Brad O'Brien</h2>
+									<p>I work for the feds</a></p>
+								</header>
+							</section>
+
 						<!-- Mini Posts
 							<section>
 								<div class="mini-posts">
 										<article class="mini-post">
 											<header>
-												<h3><a href="single.html">Enim nisl veroeros</a></h3>
-												<time class="published" datetime="2015-10-17">October 17, 2015</time>
+												<h3><a href="single.html">Vitae sed condimentum</a></h3>
+												<time class="published" datetime="2015-10-20">October 20, 2015</time>
 												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
 											</header>
-											<a href="single.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
+											<a href="single.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
 										</article>
+
 								</div>
 							</section> -->
 
-						<!-- Posts List 
+						<!-- Posts List
 							<section>
 								<ul class="posts">
 									<li>
@@ -492,7 +437,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</ul>
 							</section> -->
 
-						<!-- About 
+						<!-- About
 							<section class="blurb">
 								<h2>About</h2>
 								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
@@ -501,14 +446,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								</ul>
 							</section> -->
 
+						<!-- Footer -->
+							<section id="footer" margin="0">
+								<p class="copyright">&copy; Bradley O'Brien 2024. Template: <a href="http://html5up.net">HTML5 UP.</a>. </p>
+							</section>
+
 					</section>
 
 			</div>
-			<!-- Footer -->
-			<section id="footer">
-				<p class="copyright">&copy; Bradley O'Brien 2024</p>
-				<p>Created by Irena Li. Template: <a href="http://html5up.net">HTML5 UP</a></p>
-			</section>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
